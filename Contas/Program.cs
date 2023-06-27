@@ -1,5 +1,7 @@
 using Contas.Domain.Interfaces;
 using Contas.Infraestruture.Repositories;
+using Contas.Service.Interfaces;
+using Contas.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IContaRepository, ContaRepository>();
+builder.Services.AddScoped<IContaService, ContaService>();
+
 
 using IHost host = builder.Build();
 
