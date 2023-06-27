@@ -19,34 +19,34 @@ namespace Contas.Infrastructure.Repositories
             _context = context;
         }
 
-        public List<ContaModel> ListarClientes()
+        public List<ContaModel> ListarContas()
         {
-            return _context.Conta.FromSqlRaw($@" SELECT ClienteId, Nome, Porte 
-                                                         FROM sca.Cliente").ToList();
+            return _context.Conta.FromSqlRaw($@" SELECT ContaId, Nome, Descricao 
+                                                         FROM Conta").ToList();
         }
-        public List<ContaModel> ObterClienteId(int clienteId)
+        public List<ContaModel> ObterContaId(int ContaId)
         {
-            return _context.Conta.FromSqlRaw($@" SELECT ClienteId, Nome, Porte 
-                                                         FROM sca.Cliente
-                                                       WHERE ClienteId = {clienteId}").ToList();
-        }
-
-        public void InserirCliente(ContaModel cliente)
-        {
-            _context.Conta.FromSqlRaw($@"insert into cliente (Nome,Cliente)values({cliente.Nome},{cliente.Porte})");
-
+            return _context.Conta.FromSqlRaw($@" SELECT Contaid, Nome, Descricao 
+                                                         FROM conta
+                                                       WHERE Contaid = {ContaId}").ToList();
         }
 
-        public void AlterarCliente(ContaModel cliente)
+        public void InserirConta(ContaModel conta)
         {
-            _context.Conta.FromSqlRaw($@"update  cliente set Nome={cliente.Nome},Porte={cliente.Porte} where clienteId={cliente.IdCliente}");
+            _context.Conta.FromSqlRaw($@"insert into conta (Nome,Descricao)values({conta.Nome},{conta.Descricao})");
 
         }
 
-        public void DeletarCliente(int clienteId)
+        public void AlterarConta(ContaModel conta)
+        {
+            _context.Conta.FromSqlRaw($@"update  conta set Nome={conta.Nome},Descricao={conta.Descricao} where contaId={conta.ContaId}");
+
+        }
+
+        public void DeletarConta(int ContaId)
         {
 
-            _context.Conta.FromSqlRaw($@"delete from cliente where clienteId={clienteId}");
+            _context.Conta.FromSqlRaw($@"delete from conta where contaId={ContaId}");
 
         }
         public void Dispose()

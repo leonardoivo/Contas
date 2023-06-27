@@ -1,5 +1,4 @@
 using Contas.Domain.Interfaces;
-using Contas.Infraestruture.Repositories;
 using Contas.Service.Interfaces;
 using Contas.Service.Services;
 
@@ -10,13 +9,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IContaRepository, ContaRepository>();
+builder.Services.AddScoped<IContaRepository, Contas.Infrastructure.Repositories.ContaRepository>();
 builder.Services.AddScoped<IContaService, ContaService>();
 
+var app = builder.Build();
 
+var startup = new Startup(builder.Configuration);
+startup.ConfigureServices(builder.Services);
+
+startup.Configure(app, builder.Environment);
 using IHost host = builder.Build();
 
-var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

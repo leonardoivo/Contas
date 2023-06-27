@@ -10,3 +10,5 @@ E:\Projetos\ContasCep\Contas.Domain\obj\Debug\net6.0\Contas.Domain.dll
 E:\Projetos\ContasCep\Contas.Domain\obj\Debug\net6.0\refint\Contas.Domain.dll
 E:\Projetos\ContasCep\Contas.Domain\obj\Debug\net6.0\Contas.Domain.pdb
 E:\Projetos\ContasCep\Contas.Domain\obj\Debug\net6.0\ref\Contas.Domain.dll
+E:\Projetos\ContasCep\Contas.Domain\bin\Debug\net6.0\Contas.Domain.runtimeconfig.json
+E:\Projetos\ContasCep\Contas.Domain\obj\Debug\net6.0\Contas.Domain.genruntimeconfig.cache

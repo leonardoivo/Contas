@@ -10,3 +10,14 @@ E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\Contas.Infraestrutu
 E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\refint\Contas.Infraestruture.dll
 E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\Contas.Infraestruture.pdb
 E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\ref\Contas.Infraestruture.dll
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Infraestruture.runtimeconfig.json
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Aplication.dll
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.CrossCutting.IoC.dll
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Domain.dll
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Service.dll
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Aplication.pdb
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.CrossCutting.IoC.pdb
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Domain.pdb
+E:\Projetos\ContasCep\Contas.Infraestruture\bin\Debug\net6.0\Contas.Service.pdb
+E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\Contas.Infraestruture.csproj.CopyComplete
+E:\Projetos\ContasCep\Contas.Infraestruture\obj\Debug\net6.0\Contas.Infraestruture.genruntimeconfig.cache

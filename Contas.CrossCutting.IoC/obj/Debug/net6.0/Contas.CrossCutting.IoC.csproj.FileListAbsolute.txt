@@ -10,3 +10,5 @@ E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutti
 E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\refint\Contas.CrossCutting.IoC.dll
 E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.pdb
 E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\ref\Contas.CrossCutting.IoC.dll
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\bin\Debug\net6.0\Contas.CrossCutting.IoC.runtimeconfig.json
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.genruntimeconfig.cache
