@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contas", "Contas.csproj", "{A6337D9B-A210-4AC8-B720-4A760A3617F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contas.Aplication", "..\Contas.Aplication\Contas.Aplication.csproj", "{DC299D8B-A288-431D-9DFF-C2FD0656B438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contas.Domain", "..\Contas.Domain\Contas.Domain.csproj", "{8144CD48-0DF9-4B51-9AEF-745058D061E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contas.Infraestruture", "..\Contas.Infraestruture\Contas.Infraestruture.csproj", "{B48FB665-9645-4B19-B28F-A2C6CA6F4322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contas.Service", "..\Contas.Service\Contas.Service.csproj", "{4788C5F1-BBC8-44B8-ABF2-9D11B48C76CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contas.CrossCutting.IoC", "..\Contas.CrossCutting.IoC\Contas.CrossCutting.IoC.csproj", "{972D482D-4C9C-4534-A471-2EB211481E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6337D9B-A210-4AC8-B720-4A760A3617F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6337D9B-A210-4AC8-B720-4A760A3617F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6337D9B-A210-4AC8-B720-4A760A3617F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6337D9B-A210-4AC8-B720-4A760A3617F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC299D8B-A288-431D-9DFF-C2FD0656B438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC299D8B-A288-431D-9DFF-C2FD0656B438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC299D8B-A288-431D-9DFF-C2FD0656B438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC299D8B-A288-431D-9DFF-C2FD0656B438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8144CD48-0DF9-4B51-9AEF-745058D061E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8144CD48-0DF9-4B51-9AEF-745058D061E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8144CD48-0DF9-4B51-9AEF-745058D061E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8144CD48-0DF9-4B51-9AEF-745058D061E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48FB665-9645-4B19-B28F-A2C6CA6F4322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48FB665-9645-4B19-B28F-A2C6CA6F4322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48FB665-9645-4B19-B28F-A2C6CA6F4322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48FB665-9645-4B19-B28F-A2C6CA6F4322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4788C5F1-BBC8-44B8-ABF2-9D11B48C76CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4788C5F1-BBC8-44B8-ABF2-9D11B48C76CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4788C5F1-BBC8-44B8-ABF2-9D11B48C76CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4788C5F1-BBC8-44B8-ABF2-9D11B48C76CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972D482D-4C9C-4534-A471-2EB211481E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D482D-4C9C-4534-A471-2EB211481E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D482D-4C9C-4534-A471-2EB211481E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D482D-4C9C-4534-A471-2EB211481E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC24EA34-13AF-4ADC-8036-9FDA279F4EE7}
+	EndGlobalSection
+EndGlobal

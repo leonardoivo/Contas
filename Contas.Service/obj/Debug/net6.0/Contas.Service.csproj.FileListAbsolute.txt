@@ -1,0 +1,12 @@
+E:\Projetos\ContasCep\Contas.Service\bin\Debug\net6.0\Contas.Service.deps.json
+E:\Projetos\ContasCep\Contas.Service\bin\Debug\net6.0\Contas.Service.dll
+E:\Projetos\ContasCep\Contas.Service\bin\Debug\net6.0\Contas.Service.pdb
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.csproj.AssemblyReference.cache
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.AssemblyInfoInputs.cache
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.AssemblyInfo.cs
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.csproj.CoreCompileInputs.cache
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.dll
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\refint\Contas.Service.dll
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\Contas.Service.pdb
+E:\Projetos\ContasCep\Contas.Service\obj\Debug\net6.0\ref\Contas.Service.dll

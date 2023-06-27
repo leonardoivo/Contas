@@ -1,0 +1,12 @@
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\bin\Debug\net6.0\Contas.CrossCutting.IoC.deps.json
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\bin\Debug\net6.0\Contas.CrossCutting.IoC.dll
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\bin\Debug\net6.0\Contas.CrossCutting.IoC.pdb
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.csproj.AssemblyReference.cache
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.AssemblyInfoInputs.cache
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.AssemblyInfo.cs
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.dll
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\refint\Contas.CrossCutting.IoC.dll
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\Contas.CrossCutting.IoC.pdb
+E:\Projetos\ContasCep\Contas.CrossCutting.IoC\obj\Debug\net6.0\ref\Contas.CrossCutting.IoC.dll

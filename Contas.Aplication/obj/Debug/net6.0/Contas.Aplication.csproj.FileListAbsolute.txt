@@ -1,0 +1,12 @@
+E:\Projetos\ContasCep\Contas.Aplication\bin\Debug\net6.0\Contas.Aplication.deps.json
+E:\Projetos\ContasCep\Contas.Aplication\bin\Debug\net6.0\Contas.Aplication.dll
+E:\Projetos\ContasCep\Contas.Aplication\bin\Debug\net6.0\Contas.Aplication.pdb
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.csproj.AssemblyReference.cache
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.AssemblyInfoInputs.cache
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.AssemblyInfo.cs
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.csproj.CoreCompileInputs.cache
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.dll
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\refint\Contas.Aplication.dll
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\Contas.Aplication.pdb
+E:\Projetos\ContasCep\Contas.Aplication\obj\Debug\net6.0\ref\Contas.Aplication.dll
