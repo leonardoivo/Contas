@@ -16,7 +16,13 @@
   <ItemGroup>
     <Folder Include="Mappings\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contas.Aplication\Contas.Aplication.csproj" />
+    <ProjectReference Include="..\Contas.CrossCutting.IoC\Contas.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Contas.Domain\Contas.Domain.csproj" />
+    <ProjectReference Include="..\Contas.Service\Contas.Service.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Contas.Domain.Models
 {
-    public class ContaModel
+    public class ContaModel:BaseModel
     {
         public int ContaId { get; set; }
-        public string Name { get; set; }    
+        public string Nome { get; set; }      
+        public string Descricao { get; set; }
     }
 }

@@ -1181,6 +1181,62 @@
             "rid": "win"
           }
         }
+      },
+      "Contas.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Contas.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contas.Aplication.dll": {}
+        }
+      },
+      "Contas.CrossCutting.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Contas.CrossCutting.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contas.CrossCutting.IoC.dll": {}
+        }
+      },
+      "Contas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Contas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contas.Domain.dll": {}
+        }
+      },
+      "Contas.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Contas.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contas.Service.dll": {}
+        }
       }
     }
   },
@@ -3683,10 +3739,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Contas.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../Contas.Aplication/Contas.Aplication.csproj",
+      "msbuildProject": "../Contas.Aplication/Contas.Aplication.csproj"
+    },
+    "Contas.CrossCutting.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Contas.CrossCutting.IoC/Contas.CrossCutting.IoC.csproj",
+      "msbuildProject": "../Contas.CrossCutting.IoC/Contas.CrossCutting.IoC.csproj"
+    },
+    "Contas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Contas.Domain/Contas.Domain.csproj",
+      "msbuildProject": "../Contas.Domain/Contas.Domain.csproj"
+    },
+    "Contas.Service/1.0.0": {
+      "type": "project",
+      "path": "../Contas.Service/Contas.Service.csproj",
+      "msbuildProject": "../Contas.Service/Contas.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Contas.Aplication >= 1.0.0",
+      "Contas.CrossCutting.IoC >= 1.0.0",
+      "Contas.Domain >= 1.0.0",
+      "Contas.Service >= 1.0.0",
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 7.0.8",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.8",
@@ -3720,7 +3800,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projetos\\ContasCep\\Contas.Aplication\\Contas.Aplication.csproj": {
+              "projectPath": "E:\\Projetos\\ContasCep\\Contas.Aplication\\Contas.Aplication.csproj"
+            },
+            "E:\\Projetos\\ContasCep\\Contas.CrossCutting.IoC\\Contas.CrossCutting.IoC.csproj": {
+              "projectPath": "E:\\Projetos\\ContasCep\\Contas.CrossCutting.IoC\\Contas.CrossCutting.IoC.csproj"
+            },
+            "E:\\Projetos\\ContasCep\\Contas.Domain\\Contas.Domain.csproj": {
+              "projectPath": "E:\\Projetos\\ContasCep\\Contas.Domain\\Contas.Domain.csproj"
+            },
+            "E:\\Projetos\\ContasCep\\Contas.Service\\Contas.Service.csproj": {
+              "projectPath": "E:\\Projetos\\ContasCep\\Contas.Service\\Contas.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
